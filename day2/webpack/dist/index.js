@@ -86,11 +86,14 @@ console.log(addNum);
 "use strict";
 
 
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
 function add(a, b) {
     return a + b;
 }
 
-module.exports = add;
+exports.default = add;
 
 /***/ })
 /******/ ]);
